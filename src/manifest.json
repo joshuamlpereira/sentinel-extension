@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "Sentinel Extension",
+  "version": "1.0",
+  "description": "A simple Sentinel extension.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      },
+      {
+        "id": "ruleset_standard",
+        "enabled": true,
+        "path": "rules_standard.json"
+      },
+      {
+        "id": "ruleset_aggressive",
+        "enabled": false,
+        "path": "rules_aggressive.json"
+      },
+      {
+        "id": "ruleset_easylist",
+        "enabled": true,
+        "path": "rules_easylist.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "js": ["src/content.ts"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true,
+      "match_about_blank": true
+    },
+    {
+      "js": ["src/cosmetic.ts"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ]
+}

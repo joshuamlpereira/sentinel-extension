@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1001,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["doubleclick.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1002,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["googleadservices.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1003,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["googlesyndication.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1004,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adnxs.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1005,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adsrvr.org"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1006,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["advertising.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1007,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["serving-sys.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1008,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["rubiconproject.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1009,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pubmatic.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1010,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["openx.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1011,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["casalemedia.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1012,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["criteo.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1013,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["criteo.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1014,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["smartadserver.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1015,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["indexexchange.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1016,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bidswitch.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1017,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["smaato.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1018,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["inmobi.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1019,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["amazon-adsystem.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1020,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["moatads.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1021,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["doubleverify.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1022,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["media.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1023,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["yieldmo.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1024,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["triplelift.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1025,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["gumgum.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1026,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["undertone.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1027,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["rhythmone.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1028,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["33across.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1029,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["sovrn.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1030,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["lijit.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1031,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["scorecardresearch.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1032,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["quantserve.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1033,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bluekai.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1034,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["demdex.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1035,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["krxd.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1036,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["tapad.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1037,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["exelator.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1038,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mathtag.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1039,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bounceexchange.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1040,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["contextweb.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1041,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["addthis.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1042,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["hotjar.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1043,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mouseflow.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1044,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["luckyorange.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1045,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["fullstory.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1046,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["crazyegg.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1047,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["inspectlet.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1048,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clicktale.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1049,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["sessioncam.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1050,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["smartlook.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1051,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clarity.ms"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1052,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["newrelic.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1053,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bugsnag.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1054,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["rollbar.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1055,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["loggly.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1056,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["sumologic.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1057,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["datadoghq.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1058,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["nr-data.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1059,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["omtrdc.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1060,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["2o7.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1061,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["popads.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1062,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["popcash.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1063,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["propellerads.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1064,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clickadu.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1065,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adsterra.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1066,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pushground.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1067,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["evadav.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1068,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["hilltopads.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1069,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["onclickmax.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1070,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["galaksion.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1071,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["richpush.co"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1072,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["monetag.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1073,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["onclickrev.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1074,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["popunder.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1075,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["popmyads.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1076,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adcash.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1077,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["admaven.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1078,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bidvertiser.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1079,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clicksor.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1080,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["aceadnetwork.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1081,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["zeroredirect.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1082,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["trk.hellosofty.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1083,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["go.transferwiser.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1084,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["go.nordlocker.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1085,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["installerex.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1086,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adf.ly"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1087,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bc.vc"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1088,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ouo.io"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1089,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["shorte.st"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1090,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["linkvertise.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1091,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["shrinkme.io"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1092,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["exe.io"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1093,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clk.sh"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1094,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clksite.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1095,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clkmon.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1096,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["cpmstar.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1097,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adserverplus.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1098,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ad-maven.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1099,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ad4m.at"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1100,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adtng.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1101,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["trafficjunky.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1102,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["exoclick.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1103,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["juicyads.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1104,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["trafficstars.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1105,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["tsyndicate.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1106,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["revcontent.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1107,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["a-ads.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1108,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adxpansion.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1109,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["plugrush.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1110,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["trafficforce.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1111,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ero-advertising.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1112,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clickaine.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1113,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["padsdel.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1114,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["reporo.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1115,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["tubecorporate.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1116,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["adultadworld.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1117,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["awempire.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1118,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bitterstrawberry.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1119,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["crakrevenue.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1120,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pornvertising.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1121,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["malware.test"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1122,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["phishing-site.test"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1123,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["fakelogin.test"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1124,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["scam-downloads.test"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1125,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["securefastguard.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1126,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["protectionpc.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1127,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["cleaningpc.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1128,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["viruscheck.club"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1129,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["securitywarning.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1130,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["alertspc.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1131,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["browsercheck24.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1132,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["systemnewfound.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1133,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["update-browser.org"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1134,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pcprotect.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1135,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["totaladblock.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1136,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mackeeper.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1137,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["cleanmymac.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1138,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["drivereasy.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1139,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["reimageplus.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1140,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["fixmypc.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1141,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["winzip.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1142,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["driver-updater.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1143,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["systweak.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1144,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["iolo.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1145,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["avg.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1146,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["avast.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1147,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mcafeesafe.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1148,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["norton-security.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1149,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["trendmicro-check.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1150,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["webroot-secure.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1151,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["facebook.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1152,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["connect.facebook.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1153,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pixel.facebook.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1154,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["analytics.tiktok.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1155,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["snap.licdn.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1156,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["bat.bing.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1157,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ads.linkedin.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1158,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["t.co"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1159,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["platform.twitter.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1160,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ads.twitter.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1161,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["static.ads-twitter.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1162,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["analytics.twitter.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1163,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["sb.scorecardresearch.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1164,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["secure.quantserve.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1165,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pixel.quantserve.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1166,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["tags.bluekai.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1167,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["ib.adnxs.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1168,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["secure.adnxs.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1169,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["match.adsrvr.org"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1170,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["image2.pubmatic.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1171,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["simage2.pubmatic.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1172,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["fastclick.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1173,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["atdmt.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1174,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mookie1.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1175,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["yieldmanager.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1176,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["overture.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1177,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["specificclick.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1178,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["undertone.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1179,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mixpo.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1180,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pointroll.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1181,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["eyeblaster.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1182,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["mediaplex.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1183,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["insightexpressai.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1184,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["intellitxt.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1185,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["kontera.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1186,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["linksynergy.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1187,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["pepperjam.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1188,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["shareasale.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1189,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["cj.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1190,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["impact.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1191,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["partnerize.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1192,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["awin.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1193,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["webgains.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1194,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["tradedoubler.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1195,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["zanox.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1196,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["affilinet.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1197,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["effiliation.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1198,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["clickbank.net"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1199,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["jvzoo.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 1200,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": ["warriorplus.com"],
+      "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "font", "object", "xmlhttprequest", "ping", "media", "websocket", "other"]
+    }
+  }
+]
