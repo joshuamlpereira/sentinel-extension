@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+# 🛡️ Sentinel — Web Security & Content Filtering Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A privacy-focused Chrome extension (Manifest V3) that provides real-time website safety analysis, ad/tracker blocking, fingerprint protection, and parental controls — all running locally on your device.
 
-Currently, two official plugins are available:
+Built as a Senior Capstone Project at the University of Toledo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+### AI Trust Score
+Uses Chrome's on-device AI (Prompt API) to analyze page content and assign a safety score from 0–100. The score is displayed in both a toast notification and the popup panel, giving users a quick read on whether a site is safe, suspicious, or dangerous.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Network Filtering
+Blocks malicious domains, ad networks, and tracking scripts using Chrome's `declarativeNetRequest` API. Includes three tiers:
+- **Standard** — 200+ known ad networks, trackers, and popup domains
+- **Aggressive** — 500+ domains (may break some sites)
+- **EasyList** — 30,000+ domains compiled from EasyList and EasyPrivacy filter lists
 
-## Expanding the ESLint configuration
+### Cosmetic Filtering
+Injects CSS to hide ad containers, popup overlays, cookie banners, newsletter modals, and scam elements before they paint. Also includes scriptlet neutralizations for anti-adblock detection and push notification spam.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Canvas Obfuscation
+Hooks `HTMLCanvasElement` methods to inject subtle noise into canvas fingerprinting attempts, making your browser harder to uniquely identify across sites.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Location Spoofing
+Feeds fake coordinates to the Geolocation API, preventing sites from accessing your real location.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Ad Defense
+Blocks cross-origin popups by overriding `window.open`, and strips invisible click-trap overlays (transparent full-screen links, iframes, and divs) that hijack user clicks.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Parental Controls
+PIN-protected admin dashboard with tiered content filtering:
+- **Child / Teen / Adult** age tiers with automatic domain blocking
+- Custom domain block and allow lists
+- SHA-256 hashed PIN for secure access
+
+### Admin Dashboard
+Accessible via a 4-digit PIN, the dashboard provides:
+- **Dashboard** — Stats overview (total events, blocked domains, status)
+- **Domains** — Add/remove blocked and whitelisted domains
+- **Logs** — View blocked request history with timestamps and URLs
+- **Settings** — Feature toggles, parental controls, and data export
+
+## Tech Stack
+
+- **Chrome Manifest V3**
+- **React** + **TypeScript** for the popup UI
+- **Tailwind CSS** for styling
+- **Vite** for building
+- **Chrome APIs** — `declarativeNetRequest`, `storage`, `scripting`, `tabs`
+- **Chrome Prompt API** — On-device AI for page analysis
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- Chrome 128+ (for on-device AI features)
+
+### Install & Build
+
+```bash
+git clone https://github.com/joshuamlpereira/sentinel-extension.git
+cd sentinel-extension
+npm install
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Load in Chrome
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Open `chrome://extensions/`
+2. Enable **Developer mode** (top right)
+3. Click **Load unpacked**
+4. Select the `dist/` folder
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Enable On-Device AI (Optional)
+
+The AI Trust Score requires Chrome's built-in Prompt API:
+1. Go to `chrome://flags/#optimization-guide-on-device-model`
+2. Set to **Enabled**
+3. Go to `chrome://flags/#prompt-api-for-gemini-nano`
+4. Set to **Enabled**
+5. Restart Chrome
+
+## Project Structure
+
 ```
+sentinel-extension/
+├── src/
+│   ├── App.tsx          # Popup UI (React)
+│   ├── content.ts       # Content script (MAIN world) — AI scan, ad defense, canvas hooks
+│   ├── cosmetic.ts      # Content script (ISOLATED world) — CSS cosmetic filters
+│   └── background.ts    # Service worker — network filtering, rule management
+├── scripts/
+│   └── build-rules.js   # Downloads EasyList/EasyPrivacy and compiles DNR rules
+├── public/
+│   ├── rules_standard.json    # 200+ ad/tracker domain rules
+│   ├── rules_aggressive.json  # 500+ domain rules
+│   └── rules_easylist.json    # 30,000 domains from EasyList/EasyPrivacy
+└── dist/                # Built extension (load this in Chrome)
+```
+
+## Team
+
+- **Joshua Pereira**
+- **John Best**
+- **Aaron Samuel**
+- **Bryant Geer**
+- **Nonso Nwogu**
+
+Faculty Advisor: **Professor Weiqing Sun**
+
+## License
+
+This project was developed as part of ENGT 4050 — Senior Technology Capstone at the University of Toledo.
