@@ -103,7 +103,7 @@ sentinel-extension/
 - **Joshua Pereira**
 - **John Best**
 - **Aaron Samuel**
-- **Bryant Geer**
+- **Bryant Greer**
 - **Nonso Nwogu**
 
 Faculty Advisor: **Professor Weiqing Sun**
